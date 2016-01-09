@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="The position of the coin is determined by its corresponding Row and column. \nIf Row No. is 2,Column No. is 1 the position is twenty one.\nTo move a piece press the screen or shake the device and give your command. \n\nex:- say &apos;&apos;twenty one &apos;move&apos; forty one&apos;&apos;. "
+        android:textAlignment="center"
+        android:textColor="#fff3f3f3"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageViewscreen3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/empty" />
+
+</RelativeLayout>
